@@ -1,0 +1,79 @@
+{% extends 'instructor/basic.html' %}
+{% block title %} Instructor | See Students {% endblock %}
+{% block links %}
+{% load static %}
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+<!--===================================================================================================-->
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.min.css' %}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/master.css' %}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/gfg.min.css' %}">
+  <!--==================================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style1.css' %}">
+  <!--===================================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style2i.css' %}">
+  <!--===================================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style3.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/bt.css' %}">
+
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style2.css' %}">
+
+{% endblock %}
+{% block nav %}
+        <ul class="nav navbar-nav navbar-right" style="margin-left:-29px;margin-right:-45px;">
+          <li><a href="{% url 'instructorHome' instructor1 %}">Home</a></li>
+          <li><a href="{% url 'seeContents' instructor1 %}">See/Edit Content</a></li>
+          <li><a href="{% url 'uploadContents' instructor1 %}">Upload Content</a></li>
+          <li><a href="{% url 'stuInfo' instructor1 %}" style="color:#5FCF80;">Students</a></li>
+          <li><a href="{% url 'discussInfo' instructor1 %}">Discussion</a></li>
+          <li><a href="{% url 'instructorHome' instructor1 %}">Welcome, {{request.user.username}}</a></li>
+          <li><a href="{% url 'logout' %}">Logout</a></li>
+        </ul>
+{% endblock %}
+{% block body %}
+<!--work-shop-->
+
+      <section id="work-shop" class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="header-section text-center">
+              <form method="get" class="form-inline" style="padding:20px">
+                  {{myfilter.form}}
+                  <input type="submit" value="Search" class="btn btn-primary mb-2">
+              </form>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+              <div class="mycontainer">
+              <ul class="responsive-table">
+                <li class="table-header list-style1">
+                  <div class="col col-1">Reg Id</div>
+                  <div class="col col-2">Student Name</div>
+                  <div class="col col-3">Email</div>
+                  <div class="col col-3">Batch</div>
+                </li>
+                  {% for i in students %}
+                <li class="table-row list-style">
+                  <div class="col col-1" data-label="Job Id">{{i.regId}}</div>
+                  <div class="col col-2" data-label="Customer Name">{{i.user.first_name}}&nbsp{{i.user.last_name}}</div>
+                  <div class="col col-3" data-label="Amount">{{i.user.email}}</div>
+                  <div class="col col-3" data-label="Amount">{{i.batch.batchName}}</div>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>`
+
+            </div>
+          </div>
+      </section>
+<script>
+    document.getElementsByTagName('label')[0].value = 'First Name';
+</script>
+{% endblock %}

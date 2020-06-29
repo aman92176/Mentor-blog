@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0e72f49-25b8-43aa-9c76-533f23254683" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZM0E1m2XiKKXHCktA409jftQYm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Preet Singh\Desktop\final_Project\BTES_Academics\instructor\templatetags" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Preet Singh\Desktop\final_Project\BTES_Academics\static\img" />
+      <recent name="C:\Users\Preet Singh\Desktop\final_Project\BTES_Academics\students" />
+      <recent name="C:\Users\Preet Singh\Desktop\final_Project\BTES_Academics\static\css" />
+      <recent name="C:\Users\Preet Singh\Desktop\final_Project\BTES_Academics\static\js" />
+      <recent name="C:\Users\Preet Singh\Desktop\final_Project\BTES_Academics\instructor\templates\instructor" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BTES_Academics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0e72f49-25b8-43aa-9c76-533f23254683" name="Default Changelist" comment="" />
+      <created>1584633541228</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584633541228</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="87" width="1089" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592978890554">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="87" width="1089" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1592978890554" />
+    <state x="526" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592978531050">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="526" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1592978531050" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1587913552258">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587913552258" />
+    <state width="1364" height="208" key="GridCell.Tab.0.bottom" timestamp="1592986600135">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1364" height="208" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592986600135" />
+    <state width="1364" height="208" key="GridCell.Tab.0.center" timestamp="1592986600134">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1364" height="208" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592986600134" />
+    <state width="1364" height="208" key="GridCell.Tab.0.left" timestamp="1592986600134">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1364" height="208" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592986600134" />
+    <state width="1364" height="208" key="GridCell.Tab.0.right" timestamp="1592986600135">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1364" height="208" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592986600135" />
+    <state x="170" y="0" key="SettingsEditor" timestamp="1592989483679">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584633651653" />
+    <state x="170" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592989483679" />
+    <state x="404" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1592989643177">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588398394819" />
+    <state x="404" y="210" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1592989643177" />
+    <state x="124" y="0" width="742" height="680" key="find.popup" timestamp="1586958761514">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="124" y="0" width="742" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1586958761514" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586959583562">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1586959583562" />
+  </component>
+</project>

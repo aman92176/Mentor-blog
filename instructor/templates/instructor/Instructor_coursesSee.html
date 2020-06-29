@@ -1,0 +1,76 @@
+{% extends 'instructor/basic.html' %}
+{% block title %} Instructor | See Course {% endblock %}
+{% block links %}
+{% load static %}
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+<!--==============================================================================================================-->
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.min.css' %}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/hamburgers.min.css' %}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/select2.min.css' %}">
+    <!--================================================================================================== -->
+    <!--====================================================================================================-->
+    <link rel="stylesheet" href="{% static 'css/master.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/bt.css' %}">
+
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style2.css' %}">
+{% endblock %}
+{% block nav %}
+        <ul class="nav navbar-nav navbar-right" style="margin-left:-29px;margin-right:-45px;">
+          <li><a href="{% url 'instructorHome' instructor1 %}" >Home</a></li>
+          <li><a href="{% url 'seeContents' instructor1 %}" style="color:#5FCF80;">See/Edit Content</a></li>
+          <li><a href="{% url 'uploadContents' instructor1 %}">Upload Content</a></li>
+          <li><a href="{% url 'stuInfo' instructor1 %}">Students</a></li>
+          <li><a href="{% url 'discussInfo' instructor1 %}">Discussion</a></li>
+          <li><a href="{% url 'instructorHome' instructor1 %}">Welcome, {{request.user.username}}</a></li>
+          <li><a href="{% url 'logout' %}">Logout</a></li>
+        </ul>
+{% endblock %}
+{% block body %}
+{% load static %}
+ <div class="banner">
+    <div class="bg-color">
+      <div class="container">
+        <div class="row">
+          <div class="banner-text text-center">
+            <div class="text-border">
+              <h2 class="text-dec">Trust & Quality</h2>
+            </div>
+            <div class="intro-para text-center quote">
+              <p class="big-text">Learning Today . . . Leading Tomorrow.</p>
+            </div>
+            <a href="#work-shop" class="mouse-hover">
+              <div class="mouse"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <section id="work-shop" class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="header-section text-center">
+              <h2 style="font-size:35px;">Courses</h2>
+              <hr class="bottom-line" style="margin-left:auto;margin-right:auto;">
+            </div>
+              {% for i in courses %}
+                <div class="col-md-6 col-sm-6">
+                  <div class="service-box text-center">
+                    <div class="icon-text">
+                      <img src="{% static 'img/pythonContents.png' %}" alt="" class="contentimg-2" style="margin-left: 95px;">
+                      <h1 class="ser-text">{{i.courseName}}</h1><br>
+<!--                        <h1 class="ser-text">{{i.instructorId}}</h1><br>-->
+                      <a class="btn btn-primary btn-lg btn-block" href="{% url 'editContents' instructor1 i.courseName %}">Go To Topics</a>
+                    </div>
+                  </div>
+                </div>
+              {% endfor %}
+          </div>
+        </div>
+      </section>
+{% endblock %}
